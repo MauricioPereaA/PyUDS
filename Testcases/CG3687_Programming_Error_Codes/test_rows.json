@@ -1,0 +1,359 @@
+{
+    "Programming_Error_Codes_1_to_9_PTM": {
+        "log": 19,
+        "sw_version": 9,
+        "test_001": 22,
+        "test_002": 23,
+        "test_003": 24,
+        "test_004": 25,
+        "test_005": 26,
+        "test_006": 28
+    },
+
+    "Programming_Error_Codes_10_PTM": {
+        "log": 20,
+        "sw_version": 9,
+        "test_001": 29
+    },
+
+    "Programming_Error_Codes_11_to_19_PTM": {
+        "log": 31,
+        "sw_version": 9,
+        "test_001": 34,
+        "test_002": 35,
+        "test_003": 36,
+        "test_004": 37,
+        "test_005": 39,
+        "test_006": 41
+    },
+
+    "Programming_Error_Codes_20_PTM": {
+        "log": 32,
+        "sw_version": 9,
+        "test_001": 42
+    },
+
+
+    "Programming_Error_Codes_21_to_34_PTM": {
+        "log": 44,
+        "sw_version": 9,
+        "test_001": 49,
+        "test_002": 50,
+        "test_003": 51,
+        "test_004": 52,
+        "test_005": 53,
+        "test_006": 54,
+        "test_007": 56,
+        "test_008": 57
+    },
+
+    "Programming_Error_Codes_35_PTM": {
+        "log": 45,
+        "sw_version": 9,
+        "test_001": 58
+    },
+
+    "Programming_Error_Codes_36_to_51_PTM": {
+        "log": 60,
+        "sw_version": 9,
+        "test_001": 64,
+        "test_002": 65,
+        "test_003": 66,
+        "test_004": 67,
+        "test_005": 68,
+        "test_006": 69,
+        "test_007": 73,
+        "test_008": 74
+    },
+
+    "Programming_Error_Codes_52_PTM": {
+        "log": 61,
+        "sw_version": 9,
+        "test_001": 75
+    },
+
+    "Programming_Error_Codes_53_to_65_PTM": {
+        "log": 77,
+        "sw_version": 9,
+        "test_001": 82,
+        "test_002": 83,
+        "test_003": 84,
+        "test_004": 85,
+        "test_005": 86,
+        "test_006": 87,
+        "test_007": 88,
+        "test_008": 90
+    },
+
+    "Programming_Error_Codes_66_PTM": {
+        "log": 78,
+        "sw_version": 9,
+        "test_001": 91
+    },
+
+    "Programming_Error_Codes_67_to_80_PTM": {
+        "log": 92,
+        "sw_version": 9,
+        "test_001": 98,
+        "test_002": 99,
+        "test_003": 100,
+        "test_004": 101,
+        "test_005": 102,
+        "test_006": 103,
+        "test_007": 104,
+        "test_008": 105,
+        "test_009": 107
+    },
+
+    "Programming_Error_Codes_81_PTM": {
+        "log": 93,
+        "sw_version": 9,
+        "test_001": 108
+    },
+
+    "Programming_Error_Codes_82_to_95_PTM": {
+        "log": 110,
+        "sw_version": 9,
+        "test_001": 115,
+        "test_002": 116,
+        "test_003": 117,
+        "test_004": 118,
+        "test_005": 119,
+        "test_006": 120,
+        "test_007": 122,
+        "test_008": 124
+    },
+
+    "Programming_Error_Codes_96_to_101_PTM": {
+        "log": 110,
+        "sw_version": 9,
+        "test_001": 125,
+        "test_002": 126,
+        "test_003": 127,
+        "test_004": 129,
+        "test_005": 131
+    },
+
+    "Programming_Error_Codes_102_PTM": {
+        "log": 111,
+        "sw_version": 9,
+        "test_001": 132
+    },
+
+    "Programming_Error_Codes_103_to_115_PTM": {
+        "log": 134,
+        "sw_version": 9,
+        "test_001": 138,
+        "test_002": 139,
+        "test_003": 140,
+        "test_004": 141,
+        "test_005": 142,
+        "test_006": 143,
+        "test_007": 145,
+        "test_008": 147
+        
+    },
+
+    "Programming_Error_Codes_116_PTM": {
+        "log": 135,
+        "sw_version": 9,
+        "test_001": 148
+    },
+
+    "Programming_Error_Codes_117_to_129_PTM": {
+        "log": 150,
+        "sw_version": 9,
+        "test_001": 154,
+        "test_002": 155,
+        "test_003": 156,
+        "test_004": 157,
+        "test_005": 158,
+        "test_006": 159,
+        "test_007": 161,
+        "test_008": 163
+    },
+
+    "Programming_Error_Codes_130_PTM": {
+        "log": 151,
+        "sw_version": 9,
+        "test_001": 164
+    },
+
+    "Programming_Error_Codes_131_to_143_PTM": {
+        "log": 166,
+        "sw_version": 9,
+        "test_001": 170,
+        "test_002": 171,
+        "test_003": 172,
+        "test_004": 173,
+        "test_005": 174,
+        "test_006": 175,
+        "test_007": 177,
+        "test_008": 179
+    },
+
+    "Programming_Error_Codes_144_PTM": {
+        "log": 167,
+        "sw_version": 9,
+        "test_001": 180
+    },
+
+    "Programming_Error_Codes_145_to_157_PTM": {
+        "log": 182,
+        "sw_version": 9,
+        "test_001": 186,
+        "test_002": 187,
+        "test_003": 188,
+        "test_004": 189,
+        "test_005": 190,
+        "test_006": 191,
+        "test_007": 193,
+        "test_008": 195
+    },
+
+    "Programming_Error_Codes_158_PTM": {
+        "log": 183,
+        "sw_version": 9,
+        "test_001": 196
+    },
+
+    "Programming_Error_Codes_159_to_171_PTM": {
+        "log": 198,
+        "sw_version": 9,
+        "test_001": 202,
+        "test_002": 203,
+        "test_003": 204,
+        "test_004": 205,
+        "test_005": 206,
+        "test_006": 207,
+        "test_007": 209,
+        "test_008": 211
+    },
+
+    "Programming_Error_Codes_172_PTM": {
+        "log": 199,
+        "sw_version": 9,
+        "test_001": 212
+    },
+
+    "Programming_Error_Codes_173_to_185_PTM": {
+        "log": 214,
+        "sw_version": 9,
+        "test_001": 218,
+        "test_002": 219,
+        "test_003": 220,
+        "test_004": 221,
+        "test_005": 222,
+        "test_006": 223,
+        "test_007": 225,
+        "test_008": 227
+    },
+
+    "Programming_Error_Codes_186_PTM": {
+        "log": 215,
+        "sw_version": 9,
+        "test_001": 228
+    },
+
+    "Programming_Error_Codes_212_to_225_PTM": {
+        "log": 256,
+        "sw_version": 9,
+        "test_001": 261,
+        "test_002": 262,
+        "test_003": 263,
+        "test_004": 264,
+        "test_005": 265,
+        "test_006": 267,
+        "test_007": 268,
+        "test_008": 270
+    },
+
+    "Programming_Error_Codes_226_PTM": {
+        "log": 257,
+        "sw_version": 9,
+        "test_001": 271
+    },
+
+    "Programming_Error_Codes_241_to_255_PTM": {
+        "log": 288,
+        "sw_version": 9,
+        "test_001": 294,
+        "test_002": 295,
+        "test_003": 296,
+        "test_004": 297,
+        "test_005": 298,
+        "test_006": 299,
+        "test_007": 300,
+        "test_008": 301
+    },
+
+    "Programming_Error_Codes_256_to_261_PTM": {
+        "log": 288,
+        "sw_version": 9,
+        "test_001": 304,
+        "test_002": 305,
+        "test_003": 306,
+        "test_004": 307,
+        "test_005": 308,
+        "test_006": 310
+    },
+
+    "Programming_Error_Codes_262_PTM": {
+        "log": 289,
+        "sw_version": 9,
+        "test_001": 311
+    },
+
+    "Programming_Error_Codes_263_to_273_PTM": {
+        "log": 313,
+        "sw_version": 9,
+        "test_001": 316,
+        "test_002": 317,
+        "test_003": 318,
+        "test_004": 319,
+        "test_005": 320,
+        "test_006": 321,
+        "test_007": 322,
+        "test_008": 324
+    },
+
+    "Programming_Error_Codes_274_to_278_PTM": {
+        "log": 313,
+        "sw_version": 9,
+        "test_001": 325,
+        "test_002": 326,
+        "test_003": 327,
+        "test_004": 328,
+        "test_005": 330
+    },
+
+    "Programming_Error_Codes_279_PTM": {
+        "log": 314,
+        "sw_version": 9,
+        "test_001": 331
+    },
+
+    "Programming_Error_Codes_280_to_294_PTM": {
+        "log": 333,
+        "sw_version": 9,
+        "test_001": 336,
+        "test_002": 337,
+        "test_003": 338,
+        "test_004": 339,
+        "test_005": 340,
+        "test_006": 341,
+        "test_007": 342,
+        "test_008": 343,
+        "test_009": 344,
+        "test_010": 346,
+        "test_011": 347
+    },
+
+    "Programming_Error_Codes_295_PTM": {
+        "log": 334,
+        "sw_version": 9,
+        "test_001": 348
+    }
+
+}
+

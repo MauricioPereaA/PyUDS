@@ -1,0 +1,15 @@
+{
+    "0x37_app": {
+        "log": 19,
+        "sw_version": 19,
+        "test_002": 20
+    },
+
+    "0x37_ARB_BootMode": {
+        "log": 25,
+        "sw_version": 26,
+        "test_008": 34,
+        "test_009": 36,
+        "test_010": 41
+    }
+}

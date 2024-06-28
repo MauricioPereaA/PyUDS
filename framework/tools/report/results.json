@@ -1,0 +1,40 @@
+{
+    "sw_version": "141R4",
+    "test_suite": "COMMON_DIDs",
+    "COMMON_DIDs_1_18": {
+        "test_001": {
+            "timestamp": "2019-01-23__17-48-51",
+            "title": "Read SUM SOH Port Interface Request Exceeded",
+            "request": "22 F0 94",
+            "response": "0x62 0xf0 0x94 0x00 0x01 0xf4 0x00",
+            "expectedRsp": "Positive",
+            "data": "None",
+            "dataLength": "4",
+            "test_status": "PASSED",
+            "comments": ""
+        },
+        "test_002": {
+            "timestamp": "2019-01-23__17-48-51",
+            "title": "Read SUM SOH Port Interface Request Exceeded",
+            "request": "22 F0 94",
+            "response": "0x62 0xf0 0x94 0x00 0x01 0xf4 0x00",
+            "expectedRsp": "Positive",
+            "data": "None",
+            "dataLength": "4",
+            "test_status": "PASSED",
+            "comments": ""
+        },
+        "test_003": {
+            "timestamp": "2019-01-23__17-48-51",
+            "title": "Read SUM SOH Port Interface Request Exceeded",
+            "request": "22 F0 94",
+            "response": "0x62 0xf0 0x94 0x00 0x01 0xf4 0x00",
+            "expectedRsp": "Positive",
+            "data": "None",
+            "dataLength": "4",
+            "test_status": "PASSED",
+            "comments": ""
+        },
+        "log_path": "C:\\Users\\evan.tirado\\Workspace\\Logs\\COMMON_DIDs_1_18_2019-01-23__17-48-58\\COMMON_DIDs_1_18.asc"
+    }
+}

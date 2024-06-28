@@ -1,0 +1,38 @@
+MSM shall confirm following protected messages are required to be supported:
+CGM_CAN4_MSG_05, CGM_CAN4_MSG_10, MSM_P_CAN4_MSG02
+,
+            "CGM_CAN4_MSG_05": {
+                "DTC": "C1 46 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "CGM_CAN4_MSG_10": {
+                "DTC": "C1 46 00",
+                "PartialNetwork":[
+                    "envDriverNotification_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "MSM_P_CAN4_MSG02": {
+                "DTC": "C2 46 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            }

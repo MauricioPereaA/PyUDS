@@ -1,0 +1,46 @@
+{
+    "01_Scanner_UnsupportedService": {
+        "log": 21,
+        "sw_version": 3,
+        "test_002": 21,
+        "test_003": 22
+    },
+    "02_Scanner_UnsupportedSubFunction": {
+        "log": 29,
+        "sw_version": 9,
+        "test_002": 29,
+        "test_003": 30
+    },
+    "03_Scanner_UnsupportedDDDIDs": {
+        "log": 37,
+        "sw_version": 15,
+        "test_001": 37,
+        "test_002": 38
+    },
+    "03_Scanner_UnsupportedPeriodicDIDs": {
+        "log": 37,
+        "sw_version": 15,
+        "test_001": 37,
+        "test_002": 38
+    },
+    "03_Scanner_UnsupportedReadDIDs": {
+        "log": 37,
+        "sw_version": 15,
+        "test_001": 37,
+        "test_002": 38
+    },
+    "03_Scanner_UnsupportedWriteDIDs": {
+        "log": 37,
+        "sw_version": 15,
+        "test_003": 37,
+        "test_004": 38
+    },
+    "04_Scanner_UnsupportedRIDs": {
+        "log": 39,
+        "sw_version": 15,
+        "test_001": 39,
+        "test_002": 40,
+        "test_003": 41,
+        "test_004": 42
+    }
+}

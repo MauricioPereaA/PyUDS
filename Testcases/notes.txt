@@ -1,0 +1,19 @@
+# 	/================== PyUDS - Python Unified Diagnostic Services ==================/
+
+ * Have you seen test_rows.json files inside Test Suites folders?
+ test_rows.json is a JSON dictionary which contains all the Test Cases from its suite. Specifies the row number in the CG report where the step is located.
+ Example: See below lines. 
+	- It specifies the row where the log is going to be attached and where the sw_version is going to be positioned.
+	- Also note that each step has its corrisponding row number.
+	- The first line contains the name of the 'Python Module', so you have to be sure that the test case file has exactly the same name as it apears on test rows file.
+
+
+    "COMMON_DIDs_1_01": {  # Example taken from 'test_rows.json' in CG3531_COMMON_DIDs test suite folder.
+        "log" : 11,
+        "sw_version" : 9,
+   
+        "test_001": 11,
+        "test_002": 12,
+        "test_003": 13,
+	...
+	...

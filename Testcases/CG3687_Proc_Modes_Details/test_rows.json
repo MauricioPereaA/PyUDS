@@ -1,0 +1,111 @@
+{
+    "Proc_Modes_Details_1_1_to_16": {
+        "log": 19,
+        "sw_version": 9,
+        "test_001": 25,
+        "test_002": 26,
+        "test_003": 27,
+        "test_004": 29,
+        "test_005": 30,
+        "test_006": 31,
+        "test_007": 32,
+        "test_008": 33,
+        "test_009": 34,
+        "test_010": 35
+    },
+
+    "Proc_Modes_Details_2_1_to_14": {
+        "log": 40,
+        "sw_version": 9,
+        "test_001": 43,
+        "test_002": 44,
+        "test_003": 45,
+        "test_004": 46,
+        "test_005": 48,
+        "test_006": 50,
+        "test_007": 52,
+        "test_008": 55,
+        "test_009": 57,
+        "test_010": 59,
+        "test_011": 61,
+        "test_012": 63,
+        "test_013": 65,
+        "test_014": 66
+    },
+
+    "Proc_Modes_Details_3_1_to_14": {
+        "log": 71,
+        "sw_version": 9,
+        "test_001": 74,
+        "test_002": 75,
+        "test_003": 76,
+        "test_004": 77,
+        "test_005": 78,
+        "test_006": 79,
+        "test_007": 80,
+        "test_008": 83,
+        "test_009": 84
+    },
+
+    "Proc_Modes_Details_3_15_to_26": {
+        "log": 86,
+        "sw_version": 9,
+        "test_001": 89,
+        "test_002": 90,
+        "test_003": 91,
+        "test_004": 92,
+        "test_005": 93,
+        "test_006": 96,
+        "test_007": 97
+    },
+
+    "Proc_Modes_Details_4_1_to_10": {
+        "log": 102,
+        "sw_version": 9,
+        "test_001": 106,
+        "test_002": 107,
+        "test_003": 109,
+        "test_004": 110,
+        "test_005": 111,
+        "test_006": 112,
+        "test_007": 113
+    },
+
+    "Proc_Modes_Details_4_11_to_20": {
+        "log": 115,
+        "sw_version": 9,
+        "test_001": 118,
+        "test_002": 119,
+        "test_003": 121,
+        "test_004": 122,
+        "test_005": 123,
+        "test_006": 124,
+        "test_007": 125
+    },
+
+    "Proc_Modes_Details_4_21_to_30": {
+        "log": 127,
+        "sw_version": 9,
+        "test_001": 130,
+        "test_002": 131,
+        "test_003": 133,
+        "test_004": 134,
+        "test_005": 135,
+        "test_006": 136,
+        "test_007": 137
+    },
+
+    "Proc_Modes_Details_4_31_to_40": {
+        "log": 139,
+        "sw_version": 9,
+        "test_001": 142,
+        "test_002": 143,
+        "test_003": 145,
+        "test_004": 146,
+        "test_005": 147,
+        "test_006": 148,
+        "test_007": 149
+    }
+
+}
+

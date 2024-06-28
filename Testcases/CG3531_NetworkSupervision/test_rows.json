@@ -1,0 +1,161 @@
+{
+    "NetworkSupervision_TC01": {
+        "log": 9,
+        "sw_version": 6,
+        "test_001_1": 9,
+        "test_001_2": 11,
+        "test_003": 14,
+        "test_004": 16,
+        "test_005": 18,
+        "test_006": 19,
+        "default" : 19
+    },
+    "NetworkSupervision_TC02": {
+        "log": 24,
+        "sw_version": 23,
+        "test_001_1": 26,
+        "test_001_2": 28,
+        "test_003": 32,
+        "test_005": 35,
+        "test_007": 37,
+        "test_008": 38,
+        "test_010": 40,
+        "default" : 38
+    },
+    "NetworkSupervision_TC03": {
+        "log": 47,
+        "sw_version": 46,
+        "test_001_1": 48,
+        "test_001_2": 50,
+
+        "test_002_1": 54,
+        "test_002_2": 56,
+        
+        "test_003_1": 59,
+        "test_003_2": 61,
+        
+        "test_004_1_2": 65,
+        
+        "test_005_1_2": 68,
+        "test_006_1": 70
+
+
+    },
+    "NetworkSupervision_TC04": {
+        "log": 72,
+        "sw_version": 43,
+        "test_001_1": 76,
+        "test_001_2": 78,
+
+        "test_002_1": 82,
+        "test_002_2": 84,
+        
+        "test_003_1": 87,
+        "test_003_2": 89,
+        
+        "test_004": 93,
+        
+        "test_005": 96,
+        "test_006": 98,
+
+        "default" : 96
+    },
+    "NetworkSupervision_TC05": {
+        "log": 103,
+        "sw_version": 97,
+        "test_001_1": 105,
+        "test_001_2": 107,
+        "test_002_1": 111,
+        "test_002_2": 113,
+        "test_003_1": 116,
+        "test_003_2": 118,
+        "test_004": 123,
+        "test_005": 125
+    },
+    "NetworkSupervision_TC06": {
+        "log": 134,
+        "sw_version": 122,
+        "test_001_1": 134,
+        "test_001_2": 136,
+        "test_002_1": 140,
+        "test_002_2": 142,
+        "test_003_1": 145,
+        "test_003_2": 147,
+        "test_004": 151,
+        "test_005": 154
+    },
+    "NetworkSupervision_TC07": {
+        "log": 161,
+        "sw_version": 148,
+        "test_001_1": 161,
+        "test_001_2": 163,
+        "test_003": 168,
+        "test_004": 169,
+        "default" : 169
+    },
+    "NetworkSupervision_TC08": {
+        "log": 176,
+        "sw_version": 162,
+        "test_001_1": 176,
+        "test_001_2": 178,
+        "test_002": 184,
+        "test_003_1": 187,
+        "test_003_2": 189
+    },
+    "NetworkSupervision_TC09": {
+        "log": 196,
+        "sw_version": 181,
+        "test_001_1": 196,
+        "test_001_2": 198,
+        "test_002": 204,
+        "test_003_1": 207,
+        "test_003_2": 209
+    },
+    "NetworkSupervision_TC10": {
+        "log": 216,
+        "sw_version": 200,
+        "test_001_1": 216,
+        "test_001_2": 218,
+        "test_002_1": 223,
+        "test_002_2": 225
+    },
+    "NetworkSupervision_TC11": {
+        "log": 232,
+        "sw_version": 215,
+        "test_001_1": 232,
+        "test_001_2": 234,
+        "test_002": 239
+    },
+    "NetworkSupervision_TC12": {
+        "log": 244,
+        "sw_version": 227,
+        "test_001_1": 247,
+        "test_001_2": 248,
+        "test_001_3": 250,
+        "test_003": 254,
+        "test_005": 256,
+        "test_007": 258,
+        "test_009": 260,
+        "test_011": 263,
+        "default" : 264
+    },
+    "NetworkSupervision_TC14": {
+        "log": 319,
+        "sw_version": 304,
+        "test_002": 321,
+        "test_004": 323,
+        "default" : 324
+    },
+    "NetworkSupervision_TC15": {
+        "log": 330,
+        "sw_version": 304,
+        "test_001_1": 331,
+        "test_001_2": 333,
+        "test_002_1": 337,
+        "test_002_2": 339,
+        "test_003_1": 342,
+        "test_003_2": 344,
+        "test_004": 351,
+        "default" : 351
+    }
+}

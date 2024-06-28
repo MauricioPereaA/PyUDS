@@ -1,0 +1,35 @@
+{
+    "PTM": {
+        "BSPMP_ARC_sts" :   "C4 47 00",
+        "RCIP_ARC_sts"  :   "C4 22 00",
+        "SPMP_ARC_sts"  :   "C4 22 00",
+        "VSADP_ARC_sts" :   "C4 01 00"
+    },
+    "MSM": {
+        "VSADP_ARC_sts" :   "C4 01 00",
+        "TEGP_ARC_sts"  :   "C4 02 00",
+        "SPMP_ARC_sts"  :   "C4 22 00",
+        "LFHSRP_ARC_sts":   "C5 3B 00",
+        "EPBSP_ARC_sts" :   "C4 18 00",
+        "BSPMP_ARC_sts" :   "C4 22 00",
+        "LSS_ARC_sts"   :   "##TBD##"
+    },
+    "ARB": {
+        "BSPMP_ARC_sts" :   "C4 47 00",
+        "VSADP_ARC_sts" :   "C4 01 00",
+        "TEGP_ARC_sts"  :   "C4 02 00"
+    },
+    "SCL": {
+        "TEGP_ARC_sts" : "C4 02 00",
+        "BSIS_ARC_sts" : "C4 18 00",
+        "SPMP_ARC_sts" : "C4 22 00"
+    },
+    "TCP": {
+        "BSPMP_ARC_sts" : "##TBD##",
+        "PCIP_ARC_sts"  : "##TBD##",
+        "SD22P_ARC_sts" : "##TBD##",
+        "SD34P_ARC_sts" : "##TBD##",
+        "SD6P_ARC_sts"  : "##TBD##",
+        "VSADP_ARC_sts" : "##TBD##"
+    }
+}

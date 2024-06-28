@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemvariables version="4">
+  <namespace name="" comment="" interface="">
+	  <namespace name="ARC_Functions" comment="" interface="">
+	  <!-- Start of namespace MAIN -->
+		  <namespace name="ARC_Functions_child" comment="" interface="">
+		  <!-- Start of namespace CHILD -->
+			<variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="nested_test" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" startValue="1" />
+		  <!-- End of namespace CHILD -->
+		  </namespace>
+		  
+		  <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="normal_variable" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" startValue="1" />
+		  <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="normal_variable" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" startValue="1" />
+		  <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="normal_variable" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" startValue="1" />
+      <!-- End of namespace MAIN -->
+	  </namespace>
+  </namespace>
+  
+</systemvariables>

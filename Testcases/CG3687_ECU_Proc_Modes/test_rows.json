@@ -1,0 +1,89 @@
+{
+    "ECU_Proc_Modes_1_to_5": {
+        "log": 23,
+        "sw_version": 9,
+        "test_001": 23,
+        "test_002": 24,
+        "test_003": 25,
+        "test_004": 26,
+        "test_005": 27,
+        "test_006": 28,
+        "test_007": 29,
+        "test_008": 30,
+        "test_009": 31,
+        "test_010": 32,
+        "test_011": 33,
+        "test_012": 34,
+        "test_013": 36,
+        "test_014": 40,
+        "test_015": 41,
+        "test_016": 42,
+        "test_017": 43,
+        "test_018": 44,
+        "test_019": 45,
+        "test_020": 46,
+        "test_021": 47,
+        "test_022": 48,
+        "test_023": 49,
+        "test_024": 50,
+        "test_025": 51,
+        "test_026": 53,
+        "test_027": 54,
+        "test_028": 55,
+        "test_029": 57,
+        "test_030": 58
+    },
+
+    "ECU_Proc_Modes_6_to_11": {
+        "log": 25,
+        "sw_version": 9,
+        "test_001": 28,
+        "test_002": 29,
+        "test_003": 30
+    },
+
+    "ECU_Proc_Modes_12_to_17": {
+        "log": 31,
+        "sw_version": 9,
+        "test_001": 34,
+        "test_002": 35,
+        "test_003": 36
+    },
+
+    "ECU_Proc_Modes_18_to_29": {
+        "log": 38,
+        "sw_version": 9,
+        "test_001": 41,
+        "test_002": 42,
+        "test_003": 43,
+        "test_004": 44,
+        "test_005": 45,
+        "test_006": 46,
+        "test_007": 47,
+        "test_008": 48,
+        "test_009": 49
+    },
+
+    "ECU_Proc_Modes_30_to_48": {
+        "log": 51,
+        "sw_version": 9,
+        "test_001": 55,
+        "test_002": 56,
+        "test_003": 57,
+        "test_004": 58,
+        "test_005": 59,
+        "test_006": 60,
+        "test_007": 61,
+        "test_008": 62,
+        "test_009": 63,
+        "test_010": 64,
+        "test_011": 65,
+        "test_012": 66,
+        "test_013": 67,
+        "test_014": 68,
+        "test_015": 69
+
+    }
+
+}
+

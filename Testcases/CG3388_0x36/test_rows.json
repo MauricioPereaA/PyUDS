@@ -1,0 +1,26 @@
+{
+    "0x36_ARB_ServNoSupp": {
+        "log": 16,
+        "sw_version": 9,
+        "test_002": 20
+    },
+
+    "0x36_ARB_BootMode": {
+        "log": 25,
+        "sw_version": 26,
+        "test_010": 34,
+        "test_011": 35,
+        "test_012": 36,
+        "test_013": 37,
+        "test_022": 38,
+        "test_023": 40
+    },
+
+    "0x36_ARB_BootMode_WrongBlock": {
+        "log": 42,
+        "sw_version": 42,
+
+        "test_009": 41,
+        "test_012": 43
+    }
+}

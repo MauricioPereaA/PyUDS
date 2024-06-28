@@ -1,0 +1,71 @@
+{
+    "Diag_addr_supp_1": {
+        "log": 19,
+        "sw_version": 9,
+        "test_001": 22,
+        "test_002": 23,
+        "test_003": 24,
+        "test_004": 25,
+        "test_005": 26,
+        "test_006": 27,
+        "test_007": 28,
+        "test_008": 29,
+        "test_009": 32
+    },
+
+    "Diag_addr_supp_2": {
+        "log": 19,
+        "sw_version": 9,
+        "test_001": 31,
+        "test_002": 31,
+        "test_003": 31,
+        "test_004": 31,
+        "test_005": 36,
+        "test_006": 31,
+        "test_007": 36,
+        "test_008": 36,
+        "test_009": 31
+    },
+
+    "Diag_addr_supp_3": {
+        "log": 19,
+        "sw_version": 9,
+        "test_001": 31,
+        "test_002": 31,
+        "test_003": 31,
+        "test_004": 31,
+        "test_005": 36,
+        "test_006": 31,
+        "test_007": 36,
+        "test_008": 36,
+        "test_009": 31
+    },
+
+    "Diag_addr_supp_4": {
+        "log": 19,
+        "sw_version": 9,
+        "test_001": 31,
+        "test_002": 31,
+        "test_003": 31,
+        "test_004": 31,
+        "test_005": 36,
+        "test_006": 31,
+        "test_007": 36,
+        "test_008": 36,
+        "test_009": 31
+    },
+
+    "Diag_addr_supp_5": {
+        "log": 19,
+        "sw_version": 9,
+        "test_001": 31,
+        "test_002": 31,
+        "test_003": 31,
+        "test_004": 31,
+        "test_005": 36,
+        "test_006": 31,
+        "test_007": 36,
+        "test_008": 36,
+        "test_009": 31
+    }
+}

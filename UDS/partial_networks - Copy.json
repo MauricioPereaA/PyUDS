@@ -1,0 +1,584 @@
+{
+"ARB": {
+        "supported_PNs": [
+             "envIngressEgress_PN_NMF",
+			 "envPropulsion_PN_NMF",
+             "envRemoteDataServices_PN_NMF",
+             "envPostCollisionOperation_PN_NMF",                        
+             "envExteriorLighting_PN_NMF",
+             "envDiagnose_CAN1_PN_NMF"
+        ],
+        "protected_messages" : {
+            "VehSpdAvgDrvnAuth_StopSend": {
+                "DTC": "D6 11 00",
+                "PartialNetwork": [
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF"
+                ],
+				"SupervisionTimeout": 250, "MatureTime": 5000
+            },           
+            "TrnsShftLvrPstnAuth_StopSend": {
+                "DTC" : "D6 11 00",
+                "PartialNetwork": [
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF"
+                ],
+				"SupervisionTimeout": 31.25, "MatureTime": 5000
+            }
+        }
+    },
+            
+    
+    "PTM" : {
+        "supported_PNs" : [
+            "envIngressEgress_PN_NMF",
+            "envPropulsion_PN_NMF",
+            "envRemoteStart_PN_NMF",
+            "envRemoteDataServices_PN_NMF",
+            "envShortDurationEvent_PN_NMF",
+            "envPostCollisionOperation_PN_NMF",
+            "envVehicleAccess_PN_NMF"
+        ],
+        "protected_messages" : {
+            "VehSpdAvgDrvnAuth_StopSend": {
+                "DTC": "D6 11 00",
+                "PartialNetwork": [
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            
+            "ExtRrClsrRelReqAuth_StopSend": {
+                "DTC" : "C1 40 00",
+                "PartialNetwork": [
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            
+            "CGM_CAN4_PDU10_StopSend" : {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envVehicleAccess_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF"
+                ]
+            }
+        }
+    },
+
+    "MSM" : {
+        "supported_PNs" : [
+            "envDriverNotification_PN_NMF",
+            "envInteriorLighting_PN_NMF",
+            "envDiagnose_CAN4_PN_NMF",
+            "envPostCollisionOperation_PN_NMF",
+            "envPropulsion_PN_NMF",
+            "envRemoteDataServices_PN_NMF",
+            "envRemoteStart_PN_NMF",
+            "envShortDurationEvent_PN_NMF"
+        ],
+        "protected_messages" : {
+            "Ev_BdyGenInfo1_Prtctd_StopSend": {
+                "DTC": "C1 40 00",
+                "PartialNetwork":[
+                    "envInteriorLighting_PN_NMF",
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_SysPwrMode_Prtctd_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envDriverNotification_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_TeenDrvrAct_Prtctd_StopSend": {
+                "DTC": "C1 40 00",
+                "PartialNetwork":[
+                    "envInteriorLighting_PN_NMF",
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_BkupSysPwrM_Prtctd_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envDriverNotification_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_ElecPrkBrkS_Prtctd_StopSend": {
+                "DTC": "D6 10 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_TrnsEstGr_Prtctd_StopSend": {
+                "DTC": "C1 01 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_VehSpdAvgDr_Prtctd_StopSend": {
+                "DTC": "D6 11 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_LnFllwgHptc_Prtctd_StopSend": {
+                "DTC": "D6 15 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_PstClsnInfo_Prtctd_StopSend": {
+                "DTC": "C1 51 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN4_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            }
+        }
+    },
+        
+    "SCL": {
+        "supported_PNs" : [
+            "envDiagnose_CAN1_PN_NMF",
+            "envDriverNotification_PN_NMF",
+            "envIngressEgress_PN_NMF",
+            "envPostCollisionOperation_PN_NMF",
+            "envPropulsion_PN_NMF",
+            "envRemoteDataServices_PN_NMF",
+            "envRemoteStart_PN_NMF",
+            "envShortDurationEvent_PN_NMF"
+        ],
+        "protected_messages" : {
+            "Ev_TrnsShft_Prtctd_StopSend": {
+                "DTC" : "C1 01 00",
+                "PartialNetwork": [
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_SysPwrMode_Prtctd_StopSend": {
+                "DTC":"C1 40 00",
+                "PartialNetwork":[
+                    "envDriverNotification_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_BkupSysPwrMode_Prtctd_StopSend": {
+                "DTC":"C1 46 00",
+                "PartialNetwork":[
+                    "envDiagnose_CAN1_PN_NMF",
+                    "envDriverNotification_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_FrntAngVel_Prtctd_StopSend": {
+                "DTC":"D6 0F 00",
+                "PartialNetwork":[
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_RearAngVel_Prtctd_StopSend": {
+                "DTC":"D6 0F 00",
+                "PartialNetwork":[
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_BrkSysInfoSts2_Prtctd_StopSend": {
+                "DTC":"D6 0F 00",
+                "PartialNetwork":[
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            },
+            "Ev_PrplStat_Prtctd_StopSend": {
+                "DTC":"D6 11 00",
+                "PartialNetwork":[
+                    "envIngressEgress_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envPropulsion_PN_NMF",
+                    "envRemoteDataServices_PN_NMF",
+                    "envRemoteStart_PN_NMF",
+                    "envShortDurationEvent_PN_NMF"
+                ]
+            }
+        }
+    },
+    "TCP": {
+        "supported_PNs": [        
+            "envPropulsion_PN_NMF",
+            "envShortDurationEvent_PN_NMF",
+            "envVehicleAccess_PN_NMF",
+            "envPostCollisionOperation_PN_NMF",
+            "envInteriorLighting_PN_NMF",
+            "envIngressEgress_PN_NMF",
+            "envElectrification_PN_NMF",
+            "envRemoteReflash_PN_NMF"
+        ],
+        "protected_messages" : {
+            "BkupSysPwrModeAuth_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5039_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5036_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5011_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5035_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5049_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5046_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5040_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5016_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5020_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5021_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_5002_StopSend": {
+                "DTC": "C1 46 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_9090_StopSend": {
+                "DTC": "C1 51 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PstClsnInfo_Prtctd_PDU_StopSend": {
+                "DTC": "C1 51 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "LnFllwgFtrSt_CAN2_PDU01_StopSend": {
+                "DTC": "D6 15 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "SrlDat22_Prtctd_StopSend": {
+                "DTC": "D6 11 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "VehSpdAvgDrvn_Auth_PDU_StopSend": {
+                "DTC": "D6 11 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "PDU_9080_StopSend": {
+                "DTC": "C1 40 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "SysPwrMode_Prtctd_PDU_StopSend": {
+                "DTC": "C1 40 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },            
+            "PDU_9074_StopSend": {
+                "DTC": "C1 40 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            },
+            "SrlDat6_Prtctd_PDU_StopSend": {
+                "DTC": "C1 40 00",
+                "PartialNetwork": [
+                    "envPropulsion_PN_NMF",
+                    "envShortDurationEvent_PN_NMF",
+                    "envVehicleAccess_PN_NMF",
+                    "envPostCollisionOperation_PN_NMF",
+                    "envInteriorLighting_PN_NMF",
+                    "envIngressEgress_PN_NMF",
+                    "envElectrification_PN_NMF",
+                    "envRemoteReflash_PN_NMF"
+                ]
+            }  
+        }
+    }
+}

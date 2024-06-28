@@ -1,0 +1,179 @@
+{
+    "0x34_app": {
+        "log": 20,
+        "sw_version": 9,
+        "test_002": 20              
+
+    },
+    "0x34_MSM_boot_Pos": {
+        "log": 33,
+        "sw_version": 9,
+        "test_001": 33,
+        "test_002": 34,
+        "test_003": 35                
+
+    },
+    "0x34_PTM_boot_Pos": {
+        "log": 33,
+        "sw_version": 9,
+        "test_001": 33,
+        "test_002": 34,
+        "test_003": 35                
+
+    },
+    "0x34_MSM_boot_NRC": {
+        "log": 34,
+        "sw_version": 9,
+        "test_002": 34,
+		"test_003": 35,
+		"test_004": 36,
+		"test_005": 37,
+		"test_006": 38,
+		"test_007": 39,
+		"test_008": 40,
+		"test_009": 41,		
+		"test_011": 43,
+		"test_012": 44
+
+
+    },
+    "0x34_PTM_boot_NRC": {
+        "log": 40,
+        "sw_version": 9,
+        "test_002": 40,
+        "test_003": 41,
+        "test_004": 42,
+        "test_005": 43,        
+        "test_006": 44,
+        "test_007": 45,        
+        "test_008": 46,        
+        "test_009": 47,
+        "test_010": 48,
+        "test_011": 49,        
+        "test_012": 50,        
+        "test_013": 51,        
+        "test_014": 52,
+        "test_015": 53,
+        "test_016": 54,        
+        "test_017": 55,
+        "test_018": 56,        
+        "test_020": 58,
+        "test_021": 59,        
+        "test_023": 61,
+        "test_024": 62
+
+    },
+    "0x36_app": {
+        "log": 20,
+        "sw_version": 9,
+        "test_002": 20              
+
+    },
+    "0x36_MSM_boot_Pos": {
+        "log": 32,
+        "sw_version": 9,
+        "test_001": 32,
+        "test_002": 33,
+        "test_003": 34,
+        "test_004": 35                       
+
+    },
+    "0x36_PTM_boot_Pos": {
+        "log": 32,
+        "sw_version": 9,
+        "test_001": 32,
+        "test_002": 33,
+        "test_003": 34,
+        "test_004": 35                       
+
+    },
+    "0x36_MSM_boot_NRC": {
+        "log": 34,
+        "sw_version": 9,
+        "test_002": 34,
+		"test_003": 35,
+		"test_004": 36,
+		"test_005": 37,
+		"test_006": 38,
+		"test_007": 39,
+		"test_008": 40,
+		"test_009": 41,		
+		"test_011": 43,
+		"test_012": 44
+
+
+    },
+    "0x36_PTM_boot_NRC": {
+        "log": 40,
+        "sw_version": 9,
+        "test_002": 40,
+        "test_003": 41,
+        "test_004": 42,
+        "test_005": 43,        
+        "test_006": 44,      
+        "test_008": 46,        
+        "test_009": 47,
+        "test_011": 49,        
+        "test_012": 50,               
+        "test_014": 52,
+        "test_015": 53,       
+        "test_017": 55,
+        "test_018": 56
+
+    },
+    "0x37_app": {
+        "log": 20,
+        "sw_version": 9,
+        "test_002": 20              
+
+    },
+    "0x37_MSM_boot_Pos": {
+        "log": 33,
+        "sw_version": 9,
+        "test_001": 33,
+        "test_002": 34,
+        "test_003": 35,
+        "test_004": 36,
+        "test_005": 37                               
+
+    },
+    "0x37_PTM_boot_Pos": {
+        "log": 33,
+        "sw_version": 9,
+        "test_001": 33,
+        "test_002": 34,
+        "test_003": 35,
+        "test_004": 36,
+        "test_005": 37                               
+
+    },
+    "0x37_MSM_boot_NRC": {
+        "log": 34,
+        "sw_version": 9,
+        "test_002": 34,
+		"test_004": 36,
+		"test_005": 37,
+		"test_007": 39,
+		"test_008": 40,
+		"test_009": 41,
+		"test_010": 42,
+		"test_012": 44,
+		"test_013": 45
+                           
+
+    },
+    "0x37_PTM_boot_NRC": {
+        "log": 42,
+        "sw_version": 9,
+        "test_002": 42,
+        "test_004": 44,
+        "test_005": 45,        
+        "test_007": 47,      
+        "test_008": 48,        
+        "test_009": 49,
+        "test_010": 50,              
+        "test_012": 52,               
+        "test_013": 53
+
+    } 
+}

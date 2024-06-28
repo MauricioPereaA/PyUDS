@@ -1,0 +1,121 @@
+{   
+    "DiagnosticFaultDetection_TC01": {
+        "log": 47,
+        "sw_version": 46,
+        
+        "test_025": 52,
+        "test_026_1": 53,
+        "test_026_2": 55,
+        "test_027": 58,
+        "test_030": 60,
+        "test_032": 62,
+        "test_033": 63,
+        "test_034": 64,
+        "test_040": 66
+    },
+    "DiagnosticFaultDetection_TC03": {
+        "log": 138,
+        "sw_version": 14,
+        
+        "test_005_1": 138,
+        "test_005_2": 139,
+        "test_006": 140,
+        "test_008_1": 146,
+        "test_008_2": 147,
+        "test_010_1": 150,
+        "test_010_2": 151,
+        "test_012_1": 154,
+        "test_012_2": 155,
+        "test_014": 157,
+        "test_017": 165,
+        "test_018": 166,
+        "test_019": 167,
+        "test_020": 168,
+        "test_021_1": 173,
+        "test_021_2": 174,
+        "test_022_1": 179,
+        "test_022_2": 180
+    },
+
+    "DiagnosticFaultDetection_TC04_ARB_PTM": {
+        "log": 192,
+        "sw_version": 14,
+        
+        "test_005": 192,
+        "test_006": 193,
+        "test_006_2": 194,
+        "test_007": 195,
+        "test_010": 198,
+        "test_011": 199,
+        "test_012": 202,
+        "test_013": 203,
+        "test_015": 206,
+        "test_016_1": 207,
+        "test_016_2": 208,
+        "test_017": 209,
+        "test_020": 212,
+        "test_021": 213,
+        "test_022": 215,
+        "test_023": 217
+    },
+
+    "DiagnosticFaultDetection_TC07_PTM_ARB_TCP": {
+        "log": 280,
+        "sw_version": 14,
+        
+        "test_004": 280,
+        "test_005": 282,
+        "test_006": 285 
+    },
+
+    "DiagnosticFaultDetection_TC08_MSM": {
+        "log": 294,
+        "sw_version": 14,
+        
+        "test_004": 294,
+        "test_005": 296,
+        "test_006": 299,
+        "test_008": 301
+
+    },
+
+
+    "DiagnosticFaultDetection_TC09_MSM": {
+        "log": 310,
+        "sw_version": 14,
+        
+        "test_004": 310,
+        "test_005": 312,
+        "test_008": 315,
+        "test_009": 317,
+        "test_010": 319,
+        "test_011": 320
+
+    },
+
+    "DiagnosticFaultDetection_TC10_Steps1-5": {
+        "log": 331,
+        "sw_version": 14,
+        
+        "test_004": 331,
+        "test_005": 336
+
+    },
+
+    "DiagnosticFaultDetection_TC10_Steps5-12": {
+        "log": 338,
+        "sw_version": 14,
+        
+        "test_006_1": 338,
+        "test_006_2": 343,
+        "test_007": 348,
+        "test_008_1": 350,
+        "test_008_2": 351,
+        "test_008_3": 352,
+        "test_008_4": 354,
+        "test_009": 357
+
+    }
+
+
+}
