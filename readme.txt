@@ -279,9 +279,7 @@ Changes:
   30/Nov/2020
   PyUDS Core
 - __version__.py Updated the Version of PYUDS because it has information about CG 2020
-	Documentation about version is in the next link https://confluence-ibs.zone2.agileci.conti.de/display/VNICEGBA/Version+Rules
 - Deleted Files. Documentation Folder, the content was updated and moved to next link 
-	https://confluence-ibs.zone2.agileci.conti.de/display/VNICEGBA/Archive
 - libs_64bits.7z and PyUDS 2.2.6.1.zip has redundant information
 - install.py Updated the Install.py, now is not neccesary to decompress the PYUDS_XXX.zip for installation, it only install the offline libraries, added libraries contextlib2==0.6.0.post1 and schema==0.7.2 that given support to service 2A
 - libs_64bit and libs_32bit folders was updated the information
@@ -296,8 +294,6 @@ Changes:
         PyUDS Scripts
 - Test_27_Data_Dtc.py Validated the data_dtc parameter it was included in the examples folder
 - Test_29_Digital_IO.pu Validated the digital IO it was included in the example folder
-  Documentation:https://confluence-ibs.zone2.agileci.conti.de/display/VNICEGBA/Using+Digital+Ports+VN             
 - NetworkSupervision_TC03.py Implemented the data_dtc_parameter in the CG35331_NetworkSupervision Folder
 - test_rows.json Updated this file for writing correctly the NetworkSupervision_TC03
 - Test_28_2A_Service.py Validated the 2AService it was included in the examples folder
-  Documentation:https://confluence-ibs.zone2.agileci.conti.de/display/VNICEGBA/Service+2A
